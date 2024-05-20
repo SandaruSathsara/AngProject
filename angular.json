@@ -81,7 +81,13 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+
+              {
+                "glob": "**/*.woff2",
+                "input": "node_modules/@fortawesome/fontawesome-free/webfonts/",
+                "output": "/webfonts/"
+              }
             ],
             "styles": [
               "src/styles.css"

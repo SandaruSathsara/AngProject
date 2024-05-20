@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { Validators } from '@angular/forms';
-
 
 @Component({
   selector: 'app-navbar',
